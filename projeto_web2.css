@@ -1,0 +1,546 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  /* width: 100vw; */
+}
+
+/* ==================menus============== */
+header {
+  background-image: url(imagens/pessoas3.jpg);
+  background-size: cover;
+}
+
+.menus {
+  background-color: rgba(0, 0, 0, 0.427);
+}
+
+#menu_principal {
+  background-color: rgba(0, 0, 0, 0.557);
+}
+
+.logo {
+  height: 90px;
+  width: 100%;
+  padding: 30px;
+}
+
+.logo h1 {
+  font-size: clamp(1.5rem, 8vw, 4rem);
+  color: white;
+  text-align: center;
+}
+
+.menu_navegacao {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: auto;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.menu_navegacao .item_navegacao {
+  padding: 10px;
+}
+
+.item_navegacao > a {
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+  padding-right: 5px;
+}
+
+.menu_servicos {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10%;
+}
+
+.menu_servicos .item_servicos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  flex: auto;
+  width: 50%;
+  height: 50px;
+}
+
+.menu_servicos .item_servicos:hover {
+  background-color: rgba(0, 0, 0, 0.352);
+  transition: background-color 0.6s ease;
+}
+
+.menu_servicos .item_servicos > a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: clamp(0.6rem, 4vw, 2rem);
+}
+
+#profissao {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: clamp(0.6rem, 4vw, 2rem);
+  border: none;
+  outline: none;
+}
+
+.select-personalizado {
+  color: white;
+}
+.select-personalizado option,
+optgroup {
+  color: black;
+}
+
+.titulo_principal h1 {
+  color: white;
+  text-align: center;
+  font-size: clamp(0.6rem, 8vw, 3rem);
+}
+
+.titulo_principal {
+  height: auto;
+  padding-bottom: 7vw;
+}
+/* ============hospedagem============ */
+#hospedagem .caixas {
+  /* width: 100%; */
+  text-align: center;
+  padding: 50px 35px 20px 35px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.372) 0, 0, 0, 0.882;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.fundo_foto {
+  background-image: url(imagens/dev-pensando.jpg);
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.298);
+}
+
+.fundo_foto2 {
+  background-image: url(imagens/programacao.jpg);
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.298);
+}
+
+.caixas h1 {
+  padding-bottom: 30px;
+  font-size: clamp(1rem, 4vw, 3.8rem);
+}
+.caixas p {
+  font-size: clamp(1rem, 2.4vw, 1.5rem);
+}
+.caixas a {
+  text-decoration: none;
+}
+
+.caixas .saiba_mais {
+  display: flex;
+  width: 80%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(1rem, 3.7vw, 2rem);
+  margin: 20px 0px;
+  padding: 35px;
+}
+
+.texto1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.655);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.298);
+}
+
+.parte1 {
+  border: 1px solid white;
+}
+
+.parte1 a {
+  color: white;
+}
+
+.parte1:hover {
+  background-color: #eeeeee;
+  transition: background-color 0.5s ease;
+}
+
+.texto2 {
+  color: rgba(0, 0, 0, 0.787);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.298);
+}
+
+.parte2 {
+  border: 1px solid black;
+}
+
+.parte2 a {
+  color: rgba(0, 0, 0, 0.787);
+}
+
+.parte2 a:hover {
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.parte2:hover {
+  background-color: rgba(0, 0, 0, 0.392);
+  transition: background-color 0.5s ease;
+}
+/* ================portfolio================ */
+#portfolio {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#portfolio .titulo_portfolio {
+  text-align: center;
+  font-size: clamp(1.3rem, 5vw, 2rem);
+  padding: 30px 0px;
+  color: rgba(0, 0, 0, 0.787);
+}
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.portfolio_caixas {
+  height: 370px;
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+.caixa {
+  width: 100%;
+  height: 90%;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.57);
+}
+.portfolio_foto1 {
+  background-image: url(imagens/guardando.jpg);
+  background-size: cover;
+}
+
+.portfolio_foto2 {
+  background-image: url(imagens/mx\ computador.jpg);
+  background-size: cover;
+}
+
+.portfolio_foto3 {
+  background-image: url(imagens/programacao2.jpg);
+  background-size: cover;
+}
+
+.portfolio_foto4 {
+  background-size: cover;
+  background-image: url(imagens/mesa-de-trabalho.jpg);
+}
+
+.portfolio_saiba_mais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.portfolio_saiba_mais:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.209);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_caixas a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio_caixas p {
+  color: rgba(0, 0, 0, 0.787);
+  text-align: center;
+  padding: 10px;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+}
+
+.titulo_caixas {
+  width: 100%;
+  height: 10%;
+  border-bottom: 2px solid black;
+}
+
+/* ============formulario============ */
+#formulario {
+  background-image: url(imagens/mexendo_computador.jpg);
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cor_fundo {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.315);
+  padding: 50px 10px 80px 10px;
+}
+
+.caixa_formulario {
+  gap: 20px;
+}
+
+.for1 {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 20px;
+}
+
+.for1 input {
+  width: 50%;
+}
+
+.for1 input,
+.for2 input,
+textarea {
+  height: 60px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type="submit"] {
+  background-color: white;
+}
+.for2 {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-wrapper .material-symbols-outlined {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  pointer-events: none;
+}
+
+.input-wrapper input,
+.input-wrapper textarea {
+  width: 100%;
+  padding: 10px 10px 10px 50px;
+  height: 60px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-wrapper textarea {
+  height: auto;
+  resize: none;
+  padding-top: 72px;
+}
+/* ==================final============ */
+#final {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: #d4d4d4;
+}
+
+#final div,
+nav {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  color: rgba(0, 0, 0, 0.787);
+}
+
+.cor {
+  color: black;
+  font-weight: bold;
+}
+
+#final div > .titulo_final {
+  border-bottom: 1px solid black;
+  font-size: clamp(0.6rem, 1.2vw, 2.9rem);
+}
+
+.informacoes {
+  margin-top: 70px;
+}
+
+#final nav > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.787);
+}
+/* =============media quieres============ */
+@media (min-width: 533px) and (max-width: 762px) {
+  /* ==========menus========= */
+  .menu_servicos .item_servicos {
+    width: auto;
+  }
+  /* =======hospedagem====== */
+  #hospedagem {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: none;
+  }
+
+  .caixas {
+    width: 50%;
+    height: 400px;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+
+  .portfolio_caixas {
+    width: 40%;
+  }
+}
+@media (min-width: 762px) and (max-width: 1025px) {
+  /* ===========menus========== */
+  .menu_servicos .item_servicos {
+    height: 120px;
+    width: auto;
+  }
+  /* ===========hospedagem======== */
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 50px;
+  }
+  .portfolio_caixas {
+    width: 27%;
+  }
+
+  .caixa {
+    height: 77%;
+  }
+}
+/* =============hospedagem=========== */
+@media (min-width: 762px) {
+  #hospedagem {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .caixas {
+    width: 50%;
+    height: 400px;
+  }
+
+  .caixas .saiba_mais {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* =============menus========== */
+  #segunda_parte {
+    padding: 0px 100px;
+  }
+  .menu_servicos .item_servicos {
+    height: 120px;
+    width: auto;
+  }
+
+  /* ====================hospedagem========= */
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    width: 100%;
+    gap: 0px;
+  }
+  .portfolio_caixas {
+    flex-basis: 20%;
+  }
+
+  .caixa {
+    height: 75%;
+  }
+  /* ============formulario============== */
+  .caixa_formulario {
+    width: 100%;
+  }
+
+  .cor_fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    width: 85%;
+  }
+  /* ===================final========== */
+  #final {
+    flex-flow: row nowrap;
+  }
+
+  .informacoes {
+    margin-top: 19px;
+  }
+}
+
+@media (max-width: 393px) {
+  /* =============hopedagem============ */
+  #portfolio .portfolio_caixas {
+    width: 90%;
+    height: 220px;
+  }
+
+  .caixa {
+    height: 73%;
+  }
+
+  .for1 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}

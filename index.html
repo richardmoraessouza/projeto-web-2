@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Web2</title>
+    <link rel="stylesheet" href="projeto_web2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- =============================inicio===================== -->
+    <header id="home">
+      <div class="menus">
+        <section id="menu_principal">
+          <div class="logo">
+            <h1>Projeto web</h1>
+          </div>
+
+          <nav class="menu_navegacao">
+            <div class="item_navegacao"><a href="#home">HOME</a></div>
+            <div class="item_navegacao"><a href="#empresa">A EMPRESA</a></div>
+            <div class="item_navegacao"><a href="#portfolio">PORTFÓLIO</a></div>
+            <div class="item_navegacao"><a href="#contato">CONTATO</a></div>
+          </nav>
+        </section>
+
+        <section id="segunda_parte">
+          <nav class="menu_servicos">
+            <div class="item_servicos">
+              <form action="" method="post">
+                <label for="profissao"></label>
+                <select
+                  name=""
+                  id="profissao"
+                  class="select-personalizado"
+                  required
+                >
+                  <optgroup label="programador?">
+                    <option value="fs">Full Stack</option>
+                    <option value="be">Back-End</option>
+                    <option value="fe">Front-End</option>
+                  </optgroup>
+
+                  <optgroup label="outra_Profissão">
+                    <option value="pd">Pedreiro</option>
+                  </optgroup>
+                </select>
+              </form>
+            </div>
+            <div class="item_servicos">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Hospedagem</a
+              >
+            </div>
+            <img src="" alt="" />
+            <div class="item_servicos">
+              <a href="#" target="_blank" rel="noopener noreferrer">SEO</a>
+            </div>
+            <div class="item_servicos">
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Manutenção</a
+              >
+            </div>
+            <div class="item_servicos">
+              <a href="#" target="_blank" rel="noopener noreferrer">Logotipo</a>
+            </div>
+          </nav>
+
+          <div class="titulo_principal">
+            <h1>SUA EMPRESA ONLINE<br />A SOLUÇÃO EM WEB</h1>
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- ===============================hospedagem=================== -->
+    <main>
+      <section id="hospedagem">
+        <div class="caixas fundo_foto"></div>
+        <div class="caixas texto1">
+          <h1>Conheça a nossa empresa</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            velit ex perspiciatis neque, dignissimos porro. Hic odit
+            repellendus, consectetur iste quasi modi, natus placeat sapiente
+            consequatur dicta totam amet blanditiis.
+          </p>
+          <div class="saiba_mais parte1">
+            <a href="#" target="_blank" rel="noopener noreferrer">SAIBA MAIS</a>
+          </div>
+        </div>
+
+        <div class="caixas texto2">
+          <h1>Criação de Sites</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            cum, vero cumque dolor explicabo dicta recusandae ratione impedit
+            quos eaque beatae, possimus veniam? Quos possimus expedita minima
+            laboriosam doloremque quasi.
+          </p>
+          <div class="saiba_mais parte2">
+            <a href="#" target="_blank" rel="noopener noreferrer">SAIBA MAIS</a>
+          </div>
+        </div>
+        <div class="caixas fundo_foto2"></div>
+      </section>
+
+      <!-- ======================portfolio==================== -->
+      <section id="portfolio">
+        <div class="titulo_portfolio">
+          <h2>Serviços</h2>
+        </div>
+        <div class="container">
+          <div class="portfolio_caixas">
+            <div class="portfolio_foto1 caixa">
+              <div class="portfolio_saiba_mais">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >SAIBA MAIS</a
+                >
+              </div>
+            </div>
+            <p>Hospedagem de Sites</p>
+          </div>
+          <div class="portfolio_caixas">
+            <div class="portfolio_foto2 caixa">
+              <div class="portfolio_saiba_mais">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >SAIBA MAIS</a
+                >
+              </div>
+            </div>
+            <p>Manutenção de Sites</p>
+          </div>
+          <div class="portfolio_caixas">
+            <div class="portfolio_foto3 caixa">
+              <div class="portfolio_saiba_mais">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >SAIBA MAIS</a
+                >
+              </div>
+            </div>
+            <p>Otimização Avançada</p>
+          </div>
+          <div class="portfolio_caixas">
+            <div class="portfolio_foto4 caixa">
+              <div class="portfolio_saiba_mais">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >SAIBA MAIS</a
+                >
+              </div>
+            </div>
+            <p>Criação de Logotipo</p>
+          </div>
+        </div>
+      </section>
+      <!-- ====================formulario=========== -->
+      <section id="formulario">
+        <div class="cor_fundo">
+          <form action="" method="post" autocomplete="on">
+            <div class="caixa_formulario for1">
+              <div class="input-wrapper">
+                <span class="material-symbols-outlined">mail</span>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="E-mail:"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <span class="material-symbols-outlined">call</span>
+                <input
+                  type="tel"
+                  id="telefone"
+                  placeholder="Telefone:"
+                  required
+                  autocomplete="tel"
+                />
+              </div>
+            </div>
+
+            <div class="caixa_formulario for2">
+              <div class="input-wrapper">
+                <span class="material-symbols-outlined">person</span>
+                <input
+                  type="text"
+                  id="nome"
+                  placeholder="Nome:"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <span class="material-symbols-outlined">chat</span>
+                <textarea
+                  id="texto"
+                  placeholder="Mensagem:"
+                  rows="4"
+                ></textarea>
+              </div>
+
+              <input type="submit" value="Enviar" id="enviar" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="final">
+      <div class="menu">
+        <div class="titulo_final">
+          <h2>Menu</h2>
+        </div>
+        <nav>
+          <a href="#home">HOME</a>
+          <a href="#hospedagem">A EMPRESA</a>
+          <a href="#portfolio">PORTFÓLIO</a>
+          <a href="#formulario">CONTATO</a>
+        </nav>
+      </div>
+      <div class="informacoes">
+        <div class="titulo_final">
+          <h2>INFORMAÇÕES</h2>
+        </div>
+        <p>
+          <span class="cor">Telefone:</span> (19) 3886-1377 / (19) 9 8220-7552
+        </p>
+        <p><span class="cor">WhatsApp:</span> (19) 9 8220-755</p>
+        <p><span class="cor">Skype:</span> comercialprojetoweb</p>
+        <p>
+          <span class="cor">Endereço:</span> Avenida Dourado, 233 - Sala B -
+          Bairro <br />
+          Aquários - Vinhedo - SP / CEP 13280-000
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
