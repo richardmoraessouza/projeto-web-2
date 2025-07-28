@@ -26,3 +26,7 @@ Este projeto é uma cópia do site [Projeto Web Site](https://www.projetowebsite
 
 - Site original: [Projeto Web Site](https://www.projetowebsite.com.br/)
 - Este repositório foi criado apenas para fins educacionais. 
+
+## Site Publicado
+
+- [Acesse o site publicado no Netlify](https://app.netlify.com/projects/projetoeteste/overview) 
