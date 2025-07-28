@@ -29,4 +29,4 @@ Este projeto é uma cópia do site [Projeto Web Site](https://www.projetowebsite
 
 ## Site Publicado
 
-- [Acesse o site publicado no Netlify](https://app.netlify.com/projects/projetoeteste/overview) 
+- [Acesse o site](https://projetoeteste.netlify.app/) 
