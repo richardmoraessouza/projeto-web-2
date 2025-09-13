@@ -29,4 +29,10 @@ Este projeto é uma cópia do site [Projeto Web Site](https://www.projetowebsite
 
 ## Site Publicado
 
-- [Acesse o site](https://projetoeteste.netlify.app/) 
+- [Acesse o site](https://projetoeteste.netlify.app/)
+- 
+## 👨‍💻 Autor
+
+**Richard Moraes Souza**
+- GitHub: [@richardmoraessouza](https://github.com/richardmoraessouza)
+- LinkedIn: [Richard Moraes Souza](https://www.linkedin.com/in/richard-moraes-souza/)
